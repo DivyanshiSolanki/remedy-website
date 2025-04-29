@@ -1,0 +1,32 @@
+.cardss{
+  background-color: rgb(16, 151, 115);
+  height: 200px;
+  
+}
+.cardss:hover{
+  background-color: #5f7470;
+}
+
+.cb{
+  background-color: rgb(155, 231, 209);
+  height: 250px;
+  border-color: aliceblue;
+  box-shadow: 0 0 10px rgb(219, 216, 216);
+  border-radius: 20px;
+}
+.cb:hover{
+  background-color: rgb(239, 196, 126);
+}
+
+.top{
+  height: 70px;
+  width: 80px;
+  box-shadow: 0 0 10px rgb(205, 198, 198);
+  border-radius: 80px;
+  
+}
+
+.vvk{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,58 @@
+.explore-section {
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  .explore-section h2 {
+    color: #151616;
+    font-size:100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .categories {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    /* box-shadow: 0 0 10px rgb(68, 71, 71); */
+    height: 330px;
+    background-color: #cfe3e0;;
+    border-color: aquamarine;
+  }
+  /* .categories:hover{
+  background-color: aliceblue;
+  } */
+  .category {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .category p {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: inherit;
+  }
+  
+  .category img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+  
+  .view-all-link {
+    display: block;
+    margin-top: 20px;
+    color: #041a32;
+    text-decoration: none;
+  }.view-all-link:hover{
+    color: white;
+  }
+
+  hr {
+    border: 1px solid #041d36; /* Adjust the color and thickness as needed */
+    width: 100%; /* Adjust the width as needed */
+    margin: 20px auto; /* Center the horizontal line and adjust spacing */
+  }
+  
+  .exp{
+    font-size: 40px;
+  }

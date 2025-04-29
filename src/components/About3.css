@@ -1,0 +1,54 @@
+
+
+
+
+
+.certification-page{
+    /* background: linear-gradient(to top, #e1eae9, #46776f); */
+        /* background-color: #5f7470; */
+       height: 800px;
+  
+    }
+    
+    
+    .noti{
+    font-size: 55px;
+    color: #4a3b31;
+    text-align: center;
+     font-weight: bold;
+    
+    }
+    
+     .whe{
+      color: #375550;
+       font-size: 21px;
+      text-align: center;
+     
+    
+     }
+    .numbers{
+         display: flex;
+      gap: 18%;
+       font-size: 100px;
+       margin-left: 21%;
+       color: #ac3d09;
+       font-weight: bold;
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    
+     }
+     .year{
+       font-size: 30px;
+       display: flex;
+       gap: 12%;
+      text-align: center;
+       margin-left: 250px;
+       color: #375550;
+       
+      
+  }
+  
+  .mpp4{
+    filter: blur(3px); /* Adjust the blur radius as needed */
+  }

@@ -1,0 +1,230 @@
+.seaa{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inp{
+    height: 100px;
+    width: 90%;
+    text-align: center;
+
+    margin-top: 40px;
+    border-color: aqua;
+    border-radius: 100px;
+    background-color: #0f1010;
+    border-color: #097e68;
+    border-width: 0px;
+    
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    box-shadow: 0 0 10px rgb(66, 64, 64);
+    
+}
+.inp:hover{
+    background-color: #1d1e1e;
+    border-color: #097e68;
+    border-width: 10px;
+    
+}
+
+.span{
+    color: #0bcaa7;
+    font-size: 90px;
+   
+}
+
+.ent{
+    text-align: center;
+    font-size: 25px;
+}
+
+.youtube{
+    width: 100%;
+    height:  80vh;
+    overflow-y: scroll;
+    text-align: center;
+    
+}
+/* WebKit browsers */
+.youtube::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+.youtube::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.youtube::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.youtube::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: 20px;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+.youtube input{
+    height: 7vh;
+    font-size: 1.5rem;
+    width: 25%;
+    padding: 15px;
+
+    background: hsla(0, 0%, 100%, 1);
+
+    background: linear-gradient(45deg, hsla(0, 0%, 100%, 1) 28%, hsla(178, 37%, 87%, 1) 76%, hsla(178, 39%, 71%, 1) 100%);
+    
+    background: -moz-linear-gradient(45deg, hsla(0, 0%, 100%, 1) 28%, hsla(178, 37%, 87%, 1) 76%, hsla(178, 39%, 71%, 1) 100%);
+    
+    background: -webkit-linear-gradient(45deg, hsla(0, 0%, 100%, 1) 28%, hsla(178, 37%, 87%, 1) 76%, hsla(178, 39%, 71%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#D3EBEA", GradientType=1 );}
+
+.youtube h1{
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+#video-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: space-evenly;
+
+}
+
+
+.video{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* bmi */
+.bmi-calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 400px;
+  }
+  
+  .bmi-calculator h2 {
+    text-align: center;
+  }
+  
+  .bmi-calculator div {
+    margin-bottom: 10px;
+  }
+  
+  .bmi-calculator label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .bmi-calculator input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .bmi-calculator button {
+    width: 80%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: rgb(13, 10, 10);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+  }
+  
+  .bmi-calculator button:hover {
+    background-color: #45a049;
+  }
+  
+  .bmi-calculator h3 {
+    text-align: center;
+    color: #333;
+  }
+
+  
+  /* Tracker */
+
+  .tracker-container {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:#5ec5b2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 290px;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+   
+    
+  }
+  
+
+  
+  button:hover {
+    background-color: #060606;
+    color: white;
+  }
+  
+  .summary {
+    margin-top: 10px;
+    padding: 35px;
+    background-color: rgb(42, 120, 107);
+    border-radius: 5px;
+    height: 180px;
+    color: white;
+
+  }
+  
+  .log ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .log li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

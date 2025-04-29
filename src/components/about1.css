@@ -1,0 +1,52 @@
+.home1{
+    display: flex;
+    /* background: linear-gradient(to top, #e1eae9, #1f5e53); */
+}
+
+
+/* Define keyframe animation */
+@keyframes showTextAfterDelay {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the text element */
+  .delayed-text {
+    animation: showTextAfterDelay 5s ease-in-out forwards;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 200px 80px 15px;
+    color: #075042;
+  }
+  .heal{
+    color: rgb(212, 52, 8);
+    font-size:60px ;
+    margin-left: 80px;
+    
+   
+  }
+
+  .vt{
+  height: 700px;
+  width: 130%;
+  z-index: 0;
+  
+}
+
+.img1{
+    height: 120px;
+    width: 30%;
+   float: right;
+   z-index: 1;
+}
+.takee{
+    color: #162116;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.its{
+    margin-left: 80px;
+}

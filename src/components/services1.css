@@ -1,0 +1,11 @@
+.service{
+  background-image: url('https://images.pexels.com/photos/6627910/pexels-photo-6627910.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'); 
+ background-size: cover;
+height: 90vh; 
+font-size: 100px;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #03856d;
+}
+
+

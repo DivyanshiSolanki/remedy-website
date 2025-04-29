@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.text-section {
+  max-width: 60%;
+  margin-top: -100px; /* Move the text up */
+}
+
+.text-section h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+.text-section p {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.explore-button {
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.image-section img {
+  max-width: 170%;
+  height: 600px;
+  padding-right: 280px;
+
+}
+
+.fade-inn {
+  animation: fadeIn 2s ease-in; /* Increase duration for smoother effect */
+ padding-right: 60px;
+
+  
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.highlight {
+  color: #05ac8b;
+}
+ .http{
+ height: 680px;
+  width: 180%;
+} 
